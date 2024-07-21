@@ -54,6 +54,14 @@
 
 // console.log(happyPeople)
 
+// const nums = [5, 6, 5, 4, 7, 8, 2, 4 ]
+
+// const total = nums.reduce((currentTotal, element) => {
+//     return currentTotal + element
+// })
+
+// console.log(total)
+
 
 
 
@@ -107,17 +115,17 @@
 
 // Advanced JS - Array Promise 2
 
-const recordvideoOne = new Promise((resolve, reject) => {
-    resolve('Video One recording ')
-})
+// const recordvideoOne = new Promise((resolve, reject) => {
+//     resolve('Video One recording ')
+// })
 
-const recordvideoTwo = new Promise((resolve, reject) => {
-    resolve('Video Two recording ')
-})
+// const recordvideoTwo = new Promise((resolve, reject) => {
+//     resolve('Video Two recording ')
+// })
 
-const recordvideothree = new Promise((resolve, reject) => {
-    resolve('Video Three recording ')
-})
+// const recordvideothree = new Promise((resolve, reject) => {
+//     resolve('Video Three recording ')
+// })
 
 //  The Promise.all runs all the prommises simultaneously 
 
@@ -133,10 +141,16 @@ const recordvideothree = new Promise((resolve, reject) => {
 
 //  The Promise.race runs the promises given to it simultaneously but runs(returns) the first one first 
 
-Promise.race([
-    recordvideoOne,
-    recordvideoTwo,
-    recordvideothree
-]).then((message) => {
-    console.log(message)
-})
+// Promise.race([
+//     recordvideoOne,
+//     recordvideoTwo,
+//     recordvideothree
+// ]).then((message) => {
+//     console.log(message)
+// })
+
+
+let name = 'Strings'
+for (const c of name){
+    console.log(c)
+}
